@@ -1,0 +1,7 @@
+Why CI/CD matters in Java projects
+
+Continuous Integration-CI and Continuous Deployment-CD are essential for delivering reliable and fast-moving Java applications. CI ensures that every commit to the Git repository automatically triggers a build, runs unit tests with tools like JUnit and Maven, and detects integration issues early. This avoids “it works on my machine” problems and keeps the main branch stable.
+
+CD extends this automation to deployment. Once a build passes all tests, Jenkins or another pipeline tool can automatically package the JAR and deploy it to staging or production environments. This reduces manual effort, speeds up releases, and allows teams to deliver new features or fixes in hours instead of weeks.
+
+In Java ecosystems—where dependency management, packaging, and testing are complex—CI/CD provides consistency, repeatability, and confidence that each release is production-ready.
